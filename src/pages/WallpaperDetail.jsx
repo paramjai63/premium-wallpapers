@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Helmet } from "react-helmet-async";
+
 import { useParams, useNavigate } from "react-router-dom";
 import { Download, Share2, ArrowLeft } from "lucide-react";
 import wallpapers from "../data/wallpapers";
@@ -43,20 +43,7 @@ function WallpaperDetail() {
   };
   return (
     <div className="px-4 py-6 max-w-5xl mx-auto">
-      <Helmet>
-        <title>Download HD Wallpaper – Premium Mobile Wallpapers</title>
-        <meta
-          name="description"
-          content={
-            wallpaper.description ||
-            "Download premium mobile wallpaper in high quality."
-          }
-        />
-        <link
-          rel="canonical"
-          href={`https://premium-wallpapers.vercel.app/wallpaper/${id}`}
-        />
-      </Helmet>
+     
 
       {/* Back */}
       <button

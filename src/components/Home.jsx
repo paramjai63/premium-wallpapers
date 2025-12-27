@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import { useState } from "react";
 import wallpapers from "../data/wallpapers";
 import WallpaperCard from "./WallpaperCard";
@@ -14,37 +13,7 @@ function Home({ title = "Wallpapers", excludeId }) {
   // const visibleCategories = showAllCategories ? categories: categories.slice(0,4);
   return (
     <>
-      <Helmet>
-        <meta
-          name="google-site-verification"
-          content="tv2MJN7704pUtClKWxy27tfNMtyV87lY5UfcPtBl3hA"
-        />
-        <meta property="og:title" content="Premium Mobile Wallpapers" />
-        <meta
-          property="og:description"
-          content="Download premium HD & AMOLED wallpapers for mobile."
-        />
-        <meta
-          property="og:image"
-          content="https://premium-wallpapers.vercel.app/og-image.jpg"
-        />
-        <meta
-          property="og:url"
-          content="https://premium-wallpapers.vercel.app"
-        />
-        <meta property="og:type" content="website" />
-
-        <title>Premium Mobile Wallpapers – Free HD & AMOLED Wallpapers</title>
-        <meta
-          name="description"
-          content="Download premium mobile wallpapers in HD and AMOLED quality. Explore nature, abstract, dark, minimal, coffee & more wallpapers for your phone."
-        />
-        <meta
-          name="keywords"
-          content="mobile wallpapers, amoled wallpapers, hd wallpapers, premium wallpapers"
-        />
-        <link rel="canonical" href="https://premium-wallpapers.vercel.app/" />
-      </Helmet>
+      
 
       <section className="px-4 py-6">
         <h1 className="text-xl font-semibold text-white mb-4">

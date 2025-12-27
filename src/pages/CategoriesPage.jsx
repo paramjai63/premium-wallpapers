@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+
 import { ArrowLeft } from "lucide-react";
 import wallpapers from "../data/wallpapers";
 import WallpaperCard from "../components/WallpaperCard";
@@ -17,17 +17,7 @@ function CategoryPage() {
 
   return (
     <section className="px-4 py-6">
-      <Helmet>
-        <title>{readableCategory} Wallpapers – Premium Mobile Wallpapers</title>
-        <meta
-          name="description"
-          content={`Download premium ${readableCategory.toLowerCase()} wallpapers for mobile. High quality HD and AMOLED wallpapers, free to use.`}
-        />
-        <link
-          rel="canonical"
-          href={`https://premium-wallpapers.vercel.app/category/${categoryId}`}
-        />
-      </Helmet>
+    
 
       <button
         onClick={() => navigate("/")}
