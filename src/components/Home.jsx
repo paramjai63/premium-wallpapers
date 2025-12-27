@@ -15,6 +15,10 @@ function Home({ title = "Wallpapers", excludeId }) {
   return (
     <>
       <Helmet>
+        <meta
+          name="google-site-verification"
+          content="tv2MJN7704pUtClKWxy27tfNMtyV87lY5UfcPtBl3hA"
+        />
         <meta property="og:title" content="Premium Mobile Wallpapers" />
         <meta
           property="og:description"
