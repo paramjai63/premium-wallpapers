@@ -4,7 +4,7 @@ function Header() {
       <h1 className="text-3xl font-bold">Premium Mobile Wallpapers</h1>
 
       <p className="mt-2 text-sm text-slate-300 max-w-md">
-        High-quality, minimal wallpapers for a fresh start.
+        High-quality AMOLED & aesthetic wallpapers for modern smartphones.
       </p>
     </header>
   );

@@ -61,7 +61,7 @@ function WallpaperDetail() {
         {/* Image */}
         <img
           src={wallpaper.src}
-          alt="wallpaper"
+          alt={wallpaper.description}
           className="w-full max-h-[80vh] object-contain bg-black"
         />
 

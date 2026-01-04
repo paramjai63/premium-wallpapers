@@ -13,8 +13,6 @@ function Home({ title = "Wallpapers", excludeId }) {
   // const visibleCategories = showAllCategories ? categories: categories.slice(0,4);
   return (
     <>
-      
-
       <section className="px-4 py-6">
         <h1 className="text-xl font-semibold text-white mb-4">
           Explore Categories
@@ -58,6 +56,17 @@ function Home({ title = "Wallpapers", excludeId }) {
             />
           ))}
         </div>
+        <section className="px-4 py-10 max-w-3xl mx-auto text-slate-400 text-sm ">
+          <h2 className="text-white text-lg mb-3">
+            Download Premium Mobile Wallpapers
+          </h2>
+          <p>
+            Premium Wallpapers offers high-quality mobile wallpapers including
+            nature, AMOLED, abstract, minimal and aesthetic backgrounds. All
+            wallpapers are optimized for modern smartphones and free to
+            download.
+          </p>
+        </section>
       </section>
     </>
   );

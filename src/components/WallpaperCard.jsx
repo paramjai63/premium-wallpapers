@@ -28,7 +28,7 @@ function WallpaperCard({ id, src, description }) {
     >
       {/* Image (PURE, untouched) */}
       <div className="aspect-[9/16] w-full">
-        <img src={src} alt="wallpaper" className="w-full h-full object-cover transition-opacity duration-500 " loading="lazy" />
+        <img src={src} alt={description} className="w-full h-full object-cover transition-opacity duration-500 " loading="lazy" />
       </div>
 
       {/* Separate bottom section */}
